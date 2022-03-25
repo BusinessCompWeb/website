@@ -2,5 +2,8 @@
   /*
   Add variables for different colors.
   */
-  background: AliceBlue;
+  --light: rgb(255, 255, 255);
+  --blueAccent1: hsl(210, 100%, 56%);
+  --blueAccent2: hsl(216, 89%, 56%);
+  --paleBlue: hsl(210, 90%, 90%);
 }
