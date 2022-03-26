@@ -25,8 +25,8 @@ header {
 }
 
 header.sticky {
-  padding: 20px 5px;
-  background-color: var(--blueAccent1);
+  padding: 15px 5px;
+  background-color: var(--MainColor);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
 }
 
@@ -38,6 +38,7 @@ a {
 header .webTitle {
   font-size: 35px;
   margin-left: 30px;
+  font-weight: 700;
 }
 
 header ul {
@@ -51,18 +52,19 @@ header ul li {
 }
 
 header ul li a:hover {
-  color: var(--paleBlue);
+  color: var(--Accent);
 }
 
 .banner {
   position: relative;
   width: 100%;
-  min-height: 80vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   /*Tmp background. Use image later*/
-  background-color: rgb(233, 156, 61);
+  background-color: var(--dark);
+  background-image: url(../Images/backgrnd.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -82,8 +84,8 @@ header ul li a:hover {
 }
 
 a.btn {
-  background-color: var(--blueAccent1);
-  margin-top: 10px;
+  background-color: var(--Accent);
+  margin-top: 40px;
   padding: 10px 20px;
   border-radius: 15px;
   transition: transform 0.25s;
@@ -104,6 +106,7 @@ section {
 
 section.about {
   padding-top: 6em;
+  color: var(--dark);
 }
 
 .imgContainer img {
@@ -127,7 +130,7 @@ section.whyUs {
 }
 
 section.whyUs h2 {
-  background-color: var(--blueAccent2);
+  background-color: var(--MainColor);
   color: var(--light);
   padding: 0.5em;
   width: 100%;
@@ -143,7 +146,7 @@ section.whyUs h2 {
 }
 
 .reason {
-  outline: var(--dark) solid 2px;
+  outline: var(--dark) solid 1.5px;
   color: var(--dark);
   align-items: center;
   justify-content: center;
@@ -163,7 +166,7 @@ section.whyUs h2 {
 
 /*Footer and social media styles*/
 footer {
-  background-color: var(--blueAccent2);
+  background-color: var(--dark);
   margin-top: 4em;
   padding: 3em;
   display: flex;
