@@ -2,9 +2,23 @@
   /*
   Add variables for different colors.
   */
-  --light: hsl(0, 0%, 100%);
-  --dark: hsl(244, 94%, 21%);
+  --light: #ffffff;
+  --dark: #1f2463;
 
-  --MainColor: hsl(239, 60%, 50%);
-  --Accent: hsl(8, 90%, 58%);
+  --MainColor: hsl(181, 90%, 19%);
+  --Accent: hsl(53, 70%, 70%);
 }
+
+/*
+  Option 1:
+  -main: hsl(239, 60%, 50%)
+  -accent: hsl(8, 90%, 58%)
+
+  Option 2:
+  -main: hsl(181, 90%, 19%)
+  -accent: hsl(53, 70%, 70%)
+
+  Option 3:
+  -main: hsl(246, 25%, 32%)
+  -accent: hsl(246, 25%, 32%)
+*/

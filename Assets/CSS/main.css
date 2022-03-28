@@ -107,7 +107,7 @@ section {
 
 section.about {
   padding-top: 6em;
-  color: var(--light);
+  color: var(--MainColor);
 }
 
 .imgContainer img {
@@ -170,7 +170,7 @@ section.whyUs h2 {
 
 /*Footer and social media styles*/
 footer {
-  background-color: var(--dark);
+  background-color: var(--MainColor);
   margin-top: 4em;
   padding: 3em;
   display: flex;
