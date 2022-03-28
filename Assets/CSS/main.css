@@ -33,6 +33,7 @@ header.sticky {
 a {
   text-decoration: none;
   color: var(--light);
+  transition: color 0.25s;
 }
 
 header .webTitle {
@@ -106,7 +107,7 @@ section {
 
 section.about {
   padding-top: 6em;
-  color: var(--dark);
+  color: var(--light);
 }
 
 .imgContainer img {
@@ -116,6 +117,9 @@ section.about {
 
 section.about .content {
   width: 150%;
+  padding: 20px;
+  background-color: var(--Accent);
+  box-shadow: -10px 10px var(--MainColor);
 }
 
 h2 {
