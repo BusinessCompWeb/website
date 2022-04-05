@@ -107,7 +107,7 @@ section {
 
 section.about {
   padding-top: 6em;
-  color: var(--MainColor);
+  color: var(--light);
 }
 
 .imgContainer img {
@@ -227,8 +227,8 @@ section.FAQ {
 }
 
 section.FAQ h2 {
-  background-color: var(--Accent);
-  color: var(--dark);
+  background-color: var(--MainColor);
+  color: var(--light);
   padding: 0.5em;
   width: 100%;
   text-align: center;
