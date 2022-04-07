@@ -108,6 +108,8 @@ section {
 section.about {
   padding-top: 6em;
   color: var(--light);
+  display: flex;
+  align-items: center;
 }
 
 .imgContainer img {
@@ -203,7 +205,8 @@ footer p {
   justify-content: center;
   width: 3em;
   height: 3em;
-  border-radius: 0.75em;
+  border-radius: 1em;
+  font-size: 1.25em;
   transition: transform 0.25s;
 }
 
