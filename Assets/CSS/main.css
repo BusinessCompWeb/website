@@ -238,12 +238,19 @@ section.FAQ h2 {
 }
 
 /* For Timeline*/
+.timelineList {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 710px;
+}
+
 .box {
-    outline: var(--dark) solid 1.5px;
-    color: var(--dark);
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 2em;
-    height: 165px ;
-  }
+  background-color: var(--clr);
+  color: var(--light);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1.6em;
+  height: 160px;
+}
