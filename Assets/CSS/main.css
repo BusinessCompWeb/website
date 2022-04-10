@@ -236,3 +236,14 @@ section.FAQ h2 {
   width: 100%;
   text-align: center;
 }
+
+/* For Timeline*/
+.box {
+    outline: var(--dark) solid 1.5px;
+    color: var(--dark);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2em;
+    height: 165px ;
+  }
